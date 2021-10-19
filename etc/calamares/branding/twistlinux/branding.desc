@@ -1,0 +1,33 @@
+---
+componentName:  twistlinux
+
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 1100px,700px
+windowPlacement: center
+sidebar: widget
+navigation: widget
+
+strings:
+    productName:         "@{NAME}"
+    shortProductName:    TwistLinux
+    version:             Rolling
+    shortVersion:        Rolling
+    versionedName:       TwistLinux
+    shortVersionedName:  TwistLinux
+    bootloaderEntryName: Twistlinux
+images:
+    productLogo:         "logo.png"
+    productIcon:         "squid.png"
+    productWallpaper:    "wallpaper.png"
+    productWelcome:      "languages.png"
+
+style:
+   sidebarBackground:    "transparent"
+   sidebarText:          "#EFEFEF"
+   sidebarTextSelect:    "#EFEFEF"
+   sidebarTextHighlight: "#202a2f"
+
+slideshow:               "show.qml"
+slideshowAPI: 2
